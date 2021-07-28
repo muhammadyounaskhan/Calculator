@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(to right, purple, green);
+}
+table {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+td {
+  background-color: white;
+  box-sizing: border-box;
+  border: 3px solid aqua;
+  text-align: center;
+  height: 80px;
+  width: 80px;
+  margin: 0px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="text"] {
+  width: 97%;
+  height: 97%;
+  margin: 0px;
+  font-weight: bold;
+  font-size: 30px;
+}
+td[colspan="4"] {
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+}
+#td-upper {
+  border-bottom: none;
+}
+#td-lower {
+  border-top: none;
+}
+#output-upper {
+  border: none;
+}
+#output-lower {
+  border: none;
+}
+td:hover {
+  background-color: aqua;
+}
+td[colspan="4"]:hover {
+  background-color: white;
+}
+#output-upper:focus {
+  outline: none;
+}
+#output-lower:focus {
+  outline: none;
+}
+#del {
+  background-color: lightblue;
+}
+#ac {
+  background-color: lightgreen;
+}
+#division {
+  background-color: teal;
+}
+#multiplication {
+  background-color: yellow;
+}
+#plus {
+  background-color: darkmagenta;
+}
+#negative {
+  background-color: goldenrod;
+}
+#equal {
+  background-color: darkslateblue;
+}
